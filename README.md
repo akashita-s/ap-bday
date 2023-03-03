@@ -145,7 +145,7 @@ There are only 3 images you need to set up externally. These images have to have
       <ul>
         <li>name - background</li>
         <li>type - .jpg</li>
-        <li>filename - background.jpg</li>
+        <li>filename - snow.jpeg</li>
         <li>location - root > styles</li>
       </ul>
     </li>

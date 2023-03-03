@@ -3,7 +3,7 @@
 import { faGithubAlt, faLinkedinIn, faMediumM, faFacebook, faTwitter, faInstagram, faYoutube, faBehance } from "@fortawesome/free-brands-svg-icons"
 
 export const userinfo = {
-    logoText: "Michael Scott", //This text is visible on your navbar and footer like your logo.
+    logoText: "Happy 25th Birthday", //This text is visible on your navbar and footer like your logo.
     contact: {
         email: 'michaelscott@email.com', //It is always a good idea to mention your email on your website. Good platform to communicate.
         phone: '1234567890', //Phone number is optional, if you dont want it, consider leaving it blank .
@@ -18,8 +18,8 @@ export const userinfo = {
     ],
     greeting: {
         //this text goes on your landing page
-        title: "Hey there, I am Michael.",
-        subtitle: "Michael Gary Scott is a fictional character in NBC's The Office, portrayed by Steve Carell. Michael is the protagonist of the series, serving as the Regional Manager of the Scranton branch of a paper distribution company, Dunder Mifflin Inc. Also, that's what she said!"
+        title: "Hi Cutie.",
+        subtitle: "This website is created by me, your baby. And it's is one of the surprises for this birthday. Hope you like it."
     },
     capabilities: [
         //this text goes on your home page in table format.
@@ -116,7 +116,7 @@ export const headings = {
 
 export const ctaTexts = {
     //you can customise all the cta texts here.
-    landingCTA: 'My work',
+    landingCTA: 'Our gallery',
     workCTA: 'View All',
     capabCTA: 'Get in Touch',
     educationCTA: 'About Me',

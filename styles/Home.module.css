@@ -13,15 +13,15 @@
 .homeheading::before{
   content: '';
     position: absolute;
-    left: 0;
+    right: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: url('background.jpg');
+    background-image: url('snow.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
-    opacity: 0.4;
+    opacity: 0.6;
 }
 
 .heading{
