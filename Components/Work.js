@@ -47,9 +47,9 @@ const Work = ({ currentTheme }) => {
                     })
                 }
             </div>
-            {
+            {/* {
                 userinfo.experience.visible ? <Experiences currentTheme={currentTheme} /> : null
-            }
+            } */}
             {
                 userinfo.blogs.visible ?
                     <div style={{ backgroundColor: currentTheme.secondary }}>

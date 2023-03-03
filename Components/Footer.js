@@ -8,7 +8,7 @@ const Footer = ({ currentTheme }) => {
             <div className={styles.footertable}>
                 <Link href='/'><a><h2 className={styles.footerlogo}>{userinfo.logoText}</h2></a></Link>
                 <ul>
-                    <li className={styles.listHeading}>Socials</li>
+                    <li className={styles.listHeading}>I</li>
                     {userinfo.socials ?
                         userinfo.socials.map((social, key) => {
                             return (
@@ -16,18 +16,12 @@ const Footer = ({ currentTheme }) => {
                             )
                         }) : null
                     }
-                    <Link href={`mailto:${userinfo.contact.email ? userinfo.contact.email : ''}`}><a><li>Mail</li></a></Link>
+                    {/* <Link href={`mailto:${userinfo.contact.email ? userinfo.contact.email : ''}`}><a><li>Mail</li></a></Link> */}
                 </ul>
-                <ul>
-                    <li className={styles.listHeading}>Pages</li>
-                    <Link href='/'><a><li>Home</li></a></Link>
-                    <Link href='/#about'><a><li>About</li></a></Link>
-                    <Link href='/work'><a><li>Work</li></a></Link>
-                    <Link href='/contact'><a><li>Contact</li></a></Link>
-                </ul>
+                <Link href='/'><a><h2 className={styles.footerlogo}>CUTU</h2></a></Link>
             </div>
             <hr style={{ height: '1px', backgroundColor: currentTheme.subtext, border: 'none', opacity: '0.5' }}></hr>
-            <h2 className={styles.footercontent}>Template by Asavari Ambavane</h2>
+            <h2 className={styles.footercontent}>Made with love by Candy ♥️</h2>
         </div>
     )
 }

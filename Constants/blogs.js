@@ -5,14 +5,14 @@ export const custom_blogs = [
     {
         title: 'Blog Tilte', //blog title
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum', //blog decription
-        link: 'www.google.com', //link your blog here
+        link: '/extraone', //link your blog here
         thumbnail: blog, //blog image, can be an import or link
         categories: ['jim', 'pam', 'dwight'] //eg. web developement, prgramming, lifestyle etc.
     },
     {
         title: 'Blog Tilte',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum',
-        link: 'www.google.com',
+        link: '/extraone',
         thumbnail: blog,
         categories: ['jim', 'pam', 'dwight']
     },

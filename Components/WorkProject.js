@@ -74,7 +74,7 @@ const WorkProject = ({ currentTheme, project, id }) => {
             <button onClick={back} style={{position: 'absolute', top: '50%', left: '10px', color: 'white', fontSize: '20px'}}>&lt;</button>
             <button onClick={ahead} style={{position: 'absolute', top: '50%', right: '10px', color: 'white', fontSize: '20px'}}>&gt;</button>
           </div>
-          <div>
+          {/* <div>
             <Tooltip label="Github link" placement="right">
               <div className={styles.socialIcon} style={{ color: currentTheme.subtext, borderColor: currentTheme.subtext }}>
                 {project.githubLink !== '' ? <Link href={project.githubLink}><a><FontAwesomeIcon icon={faGithubAlt} /></a></Link> : <FontAwesomeIcon icon={faGithubAlt} onClick={showGitToast} />}
@@ -85,7 +85,7 @@ const WorkProject = ({ currentTheme, project, id }) => {
                 {project.projectLink !== '' ? <Link href={project.projectLink}><a><FontAwesomeIcon icon={faTelegramPlane} /></a></Link> : <FontAwesomeIcon icon={faTelegramPlane} onClick={showProjToast} />}
               </div>
             </Tooltip>
-          </div>
+          </div> */}
         </div>
         <div className={styles.cardbottom}>
           <p className={styles.projdescription}>{project.description}</p>
