@@ -18,7 +18,7 @@ const work = ({ currentTheme }) => {
         partner, my confidant, and my best friend.
         <br />
         With every passing day, my love for you grows stronger. Your smile, your
-        laughter, and your gentle touch fill me with joy and warmth, and I can't
+        laughter, and your gentle touch fill me with joy and warmth, and I can&apos;t
         imagine life without you. Thank you for being the most amazing boyfriend
         I could ever ask for. I love you more than words can express.
       </div>

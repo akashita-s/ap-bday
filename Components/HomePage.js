@@ -1,10 +1,7 @@
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import HomeProject from './HomeProject'
-import Skills from './Skills'
 import { projects } from '../Constants/projects'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"
 import { userinfo, ctaTexts, headings } from '../Constants/userinfo'
 import Education from './Education'
 
@@ -57,7 +54,7 @@ const HomePage = ({ currentTheme }) => {
                     To have you by my side<br></br>
                     <br/>
 
-                    So here's to us, my love<br/>
+                    So here&apos;s to us, my love<br/>
                     And to the life we share<br/>
                     I love you more than words can say<br/>
                     And I will always be there
