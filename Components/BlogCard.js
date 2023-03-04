@@ -10,28 +10,7 @@ const BlogCard = ({ blog, currentTheme }) => {
             <Box maxW="sm" borderWidth="2px" borderRadius="lg" overflow="hidden" bg={currentTheme.secondary}>
                 <Image src={blog.thumbnail || blog.cover_image} alt='thumbnail image' height='300' width='500' />
                 <Box p="6">
-                    <HStack spacing={2}>
-                        { blog.categories ?
-                            blog.categories.slice(0, 3).map((category, key) => {
-                                return (
-                                    <div key={key}>
-                                        <Tag size="sm" borderRadius="md" variant="outline" colorScheme="blue">
-                                            <TagLabel>{category}</TagLabel>
-                                        </Tag>
-                                    </div>
-                                )
-                            }) : blog.tag_list ?
-                            blog.tag_list.slice(0, 3).map((category, key) => {
-                                return (
-                                    <div key={key}>
-                                        <Tag size="sm" borderRadius="md" variant="outline" colorScheme="blue">
-                                            <TagLabel>{category}</TagLabel>
-                                        </Tag>
-                                    </div>
-                                )
-                            }) : null
-                        }
-                    </HStack>
+                
                     <Box
                         mt="1"
                         as="h4"

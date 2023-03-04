@@ -115,6 +115,10 @@
   transform: translateY(-5px);
 }
 
+.letterContainer{
+  padding: 4rem 2rem;
+}
+
 .cta4{
   padding: 0.4rem 2.5rem;
   border-radius: 10px;

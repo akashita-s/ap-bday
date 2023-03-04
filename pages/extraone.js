@@ -1,10 +1,11 @@
 import HeadTag from "../Components/HeadTag";
+import styles from "../styles/Home.module.css"
 
 const work = ({ currentTheme }) => {
   return (
     <>
       <HeadTag page="Work" />
-      <div>
+      <div className={styles.letterContainer}>
         As I sit down to write this, my heart is overflowing with love and
         gratitude for you. I feel so lucky to have you in my life, and I cherish
         every moment we spend together. You are the kindest, most caring person
