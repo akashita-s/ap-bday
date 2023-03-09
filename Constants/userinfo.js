@@ -4,48 +4,12 @@ import { faGithubAlt, faLinkedinIn, faMediumM, faFacebook, faTwitter, faInstagra
 
 export const userinfo = {
     logoText: "Happy 25th Birthday", //This text is visible on your navbar and footer like your logo.
-    contact: {
-        email: 'michaelscott@email.com', //It is always a good idea to mention your email on your website. Good platform to communicate.
-        phone: '1234567890', //Phone number is optional, if you dont want it, consider leaving it blank .
-        countrycode: '+91' //It is advisable to add the country code incase you mention your contact number.
-    },
-    socials: [
-        //For aesthetics, it is advisable for you to mention upto 4 social media links only. Fill in the links.
-        //more icons are imported above, use as you like them.
-        { type: 'Love', link: '', icon: faGithubAlt },
-        { type: 'You', link: '', icon: faLinkedinIn }
-    ],
     greeting: {
         //this text goes on your landing page
         title: "Hi Cutie.",
         subtitle: "This website is created by me, your baby. And it's is one of the surprises for this birthday. Hope you like it."
     },
-    capabilities: [
-        //this text goes on your home page in table format.
-        //For aesthetics, it is advisable for you to mention upto 4 catgeories links only.
-        //For aesthetics, it is advisable for you to keep similar number of skills in each category
-        {
-            category: "Category", // eg.frontend, backend, devops etc
-            skills: ["Skillset1", "Skillset1", "Skillset1"] //eg. react, html, python etc.
-        },
-        {
-            category: "Category",
-            skills: ["Skillset2", "Skillset2", "Skillset2"]
-        },
-        {
-            category: "Category",
-            skills: ["Skillset3", "Skillset3", "Skillset3"]
-        },
-        {
-            category: "Category",
-            skills: ["Skillset4", "Skillset4", "Skillset4"]
-        },
-    ],
-    about: {
-        //this text goes at the bottom of your home page.
-        content: "My dearest love, I write this poem for you /n To express the depth of feeling /n That I hold for only you",
-        resume: "/" //link your resume here. it can be drive link or any other link
-    },
+
     education: {
         visible: true, //set this to false if you want to omit this section
         educationList: [
@@ -107,7 +71,7 @@ export const headings = {
     education: 'The Love Timeline',
     experience: 'Experiences',
     blogs: 'I write!',
-    contact: 'Contact Me',
+    contact: 'mini Vlog',
 }
 
 export const ctaTexts = {
