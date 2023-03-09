@@ -162,7 +162,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 0 10vw;
+  padding: 0 5vw;
 }
 
 .homeAboutSection::before{
