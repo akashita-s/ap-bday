@@ -8,7 +8,7 @@
 
 .contactWrapper{
   width: 40%;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .contactHeading{
@@ -18,12 +18,14 @@
 .playerWrapper{
   position: relative;
   padding-top: 56.25%;
+  width: 50%;
 }
 
 .reactPlayer {
   position: absolute;
   top: 0;
   left: 0;
+  width: 50%;
 }
 
 .contact{
@@ -92,8 +94,8 @@
 
   .playerWrapper{
     position: relative;
-    padding-top: 56.25%;
-    width: 100%;
+    padding-top: 100%;
+    width: 50%;
   }
   
   .form{

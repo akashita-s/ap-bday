@@ -18,7 +18,8 @@ const Contact = ({ currentTheme }) => {
         <h2 className={styles.contact}>{headings.contact}</h2>
       </div>
       <div className={styles.playerWrapper}>
-        <ReactPlayer className={styles.reactPlayer} url="https://www.youtube.com/watch?v=ysz5S6PUM-U" />
+        <ReactPlayer className={styles.reactPlayer} width='100%'
+          height='100%' url="https://www.youtube.com/watch?v=ysz5S6PUM-U" />
       </div>
     </div>
   );
