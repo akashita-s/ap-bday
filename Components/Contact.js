@@ -19,7 +19,17 @@ const Contact = ({ currentTheme }) => {
       </div>
       <div className={styles.playerWrapper}>
         <ReactPlayer className={styles.reactPlayer} width='100%'
-          height='100%' url="https://www.youtube.com/watch?v=ysz5S6PUM-U" />
+          height='100%' url="https://www.youtube.com/watch?v=6ayyfucIl6M" />
+      </div>
+      <div className={styles.gap}></div>
+      <div className={styles.playerWrapper}>
+        <ReactPlayer className={styles.reactPlayer} width='100%'
+          height='100%' url="https://www.youtube.com/watch?v=ElZfdU54Cp8" />
+      </div>
+      <div className={styles.gap}></div>
+      <div className={styles.playerWrapper}>
+        <ReactPlayer className={styles.reactPlayer} width='100%'
+          height='100%' url="https://www.youtube.com/watch?v=mkR_Qwix4Ho" />
       </div>
     </div>
   );
