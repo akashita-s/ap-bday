@@ -70,8 +70,8 @@ export const headings = {
     about: 'Little Poem',
     education: 'The Love Timeline',
     experience: 'Experiences',
-    blogs: 'I write!',
-    contact: 'mini Vlog',
+    blogs: 'I wrote this for you!',
+    contact: 'Songs that remind me of you',
 }
 
 export const ctaTexts = {
